@@ -1,0 +1,23 @@
+@import "/src/styles/cores.scss";
+
+.component {
+  display: flex;
+  justify-content: space-between;
+  padding: 4vw;
+  align-items: center;
+
+  .logo {
+    img {
+      width: 15vw;
+    }
+  }
+  .navbar {
+    display: flex;
+    font-family: "Raleway", sans-serif;
+
+    p {
+      margin: 2vw;
+      font-size: 0.8rem;
+    }
+  }
+}
