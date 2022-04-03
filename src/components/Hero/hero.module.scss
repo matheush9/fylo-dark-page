@@ -1,6 +1,11 @@
 @import "/src/styles/cores.scss";
 
 .component {
+  background-color: $dark-blue1;
+  background-image: url('/images/bg-curvy-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   .intro {
     display: flex;
     align-items: center;

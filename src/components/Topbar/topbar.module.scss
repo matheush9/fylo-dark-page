@@ -1,6 +1,7 @@
 @import "/src/styles/cores.scss";
 
 .component {
+  background-color: $dark-blue1;
   display: flex;
   justify-content: space-between;
   padding: 4vw;

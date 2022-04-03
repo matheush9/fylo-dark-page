@@ -1,1 +1,44 @@
 @import "/src/styles/cores.scss";
+
+.component {
+  display: flex;
+  padding: 0 5vw;
+
+  .stayImage {
+    img {
+      width: 45vw;
+    }
+  }
+  .stayText {
+    padding: 0 5vw;
+    margin-top: 10vh;
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 0.9rem;
+      margin: 2vh 0;
+    }
+    .seeHow {
+      display: flex;
+      h4 {  
+        color: $cyan;
+        font-weight: 500;
+      }
+      .wrapper {
+        border-bottom: 1px solid $cyan;
+        margin-top: 5px;
+        width: 13vw;
+      }
+      .arrow {
+        display: inline;
+        img {
+          width: 2vw;
+        }
+      }
+    }
+
+  }
+
+
+}

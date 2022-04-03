@@ -18,8 +18,8 @@ export default function Home() {
       <Topbar />
       <Hero />
       <Items />
-      {/* 
       <StayProductive />
+      {/* 
       <Testemonials />
       <EarlyAcess />
       <Footer /> */}
