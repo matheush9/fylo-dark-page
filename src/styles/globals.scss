@@ -1,0 +1,33 @@
+// Font to Headings, Call-to-actions, Header Navigation
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+// Font to Body   
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+//
+@import "/src/styles/cores.scss";
+
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Raleway', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+@media (min-width: 1080px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 110%;
+  }
+}
+
