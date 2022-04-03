@@ -17,7 +17,8 @@ export default function Home() {
       </Head>
       <Topbar />
       <Hero />
-      {/* <Items />
+      <Items />
+      {/* 
       <StayProductive />
       <Testemonials />
       <EarlyAcess />
