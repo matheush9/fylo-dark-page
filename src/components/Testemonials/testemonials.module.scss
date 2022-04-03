@@ -1,1 +1,52 @@
 @import "/src/styles/cores.scss";
+
+.component {
+  margin: 20vh 2vw;
+  padding: 5vw;
+
+  .quote {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .wrapper {
+    display: flex;
+
+    .comment {
+      margin-left: 4vw;
+      width: 35vw;
+      background-color: $dark-blue4;
+      padding: 2vw;
+      margin: 0 2vh;
+      border-radius: 8px;
+
+      p {
+        font-size: 0.8rem;
+      }
+
+      .founder {
+        margin-left: 1vw;
+        margin-top: 3vh;
+        :first-child {
+          font-weight: bold;
+        }
+        :last-child {
+          font-size: 0.6rem;
+        }
+      }
+
+      .profile {
+        margin-top: 2vh;
+        img {
+          width: 5vh;
+          border-radius: 50%;
+        }
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

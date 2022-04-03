@@ -19,8 +19,8 @@ export default function Home() {
       <Hero />
       <Items />
       <StayProductive />
-      {/* 
       <Testemonials />
+      {/* 
       <EarlyAcess />
       <Footer /> */}
     </div>
