@@ -16,8 +16,8 @@ export default function Home() {
         <title>Fylo</title>
       </Head>
       <Topbar />
-      {/* <Hero />
-      <Items />
+      <Hero />
+      {/* <Items />
       <StayProductive />
       <Testemonials />
       <EarlyAcess />

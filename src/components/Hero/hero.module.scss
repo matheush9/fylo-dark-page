@@ -1,1 +1,24 @@
 @import "/src/styles/cores.scss";
+
+.component {
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 50vw;
+    }
+  }
+
+  .allYourText {
+    text-align: center;
+    padding: 0 40vh;
+
+    * {
+      margin-top: 4vh;
+    }
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+}

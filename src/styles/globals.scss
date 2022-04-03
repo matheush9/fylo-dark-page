@@ -1,10 +1,9 @@
 // Font to Headings, Call-to-actions, Header Navigation
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-// Font to Body   
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+// Font to Body
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 //
 @import "/src/styles/cores.scss";
-
 
 //font-family: 'Raleway', sans-serif;
 @import "/src/styles/cores.scss";
@@ -18,9 +17,26 @@
 body {
   overflow-x: hidden;
   width: 100vw;
-  background-color: $dark-blue2;
+  background-color: $dark-blue1;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-image: url('/images/bg-curvy-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 1rem;
+}
+
+button {
+  background: linear-gradient(90deg, rgba(101,226,217,1) 0%, rgba(79,195,211,1) 28%, rgba(51,158,204,1) 100%);
+  border: none;
+  padding: 2vh 6vw;
+  border-radius: 50px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
 @media (min-width: 1080px) {
@@ -34,4 +50,3 @@ body {
     font-size: 110%;
   }
 }
-
