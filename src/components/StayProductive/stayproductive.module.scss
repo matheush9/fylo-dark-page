@@ -21,6 +21,15 @@
     }
     .seeHow {
       display: flex;
+      cursor: pointer;
+    
+      :hover {
+        color: white;
+        transition: 0.4s;
+        .wrapper {
+          border-bottom-color: white;
+        }
+      }
       h4 {  
         color: $cyan;
         font-weight: 500;

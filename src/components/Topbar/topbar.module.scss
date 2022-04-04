@@ -15,7 +15,11 @@
   .navbar {
     display: flex;
     font-family: "Raleway", sans-serif;
-
+    cursor: pointer;
+    
+    :hover {
+      font-weight: bold;
+    }
     p {
       margin: 2vw;
       font-size: 0.8rem;

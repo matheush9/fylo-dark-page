@@ -39,8 +39,16 @@
   .aboutus {
     display: flex;
     font-family: "Raleway", sans-serif;
-    p {
-      margin: 2vw;
+    div {
+      cursor: pointer;
+      
+      :hover {
+        font-weight: bold;
+      }
+      p {
+        margin: 2vw;
+      }
     }
+
   }
 }
