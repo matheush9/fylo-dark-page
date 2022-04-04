@@ -50,3 +50,18 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .component {
+    .wrapper {
+      flex-direction: column;
+      justify-content: center;
+      .comment {
+        width: 85vw;
+        padding: 2vh;
+        line-height: 1.3rem;
+        margin-top: 4vh;
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
 .component {
   display: flex;
   padding: 0 5vw;
-
+  
   .stayImage {
     img {
       width: 45vw;
@@ -48,6 +48,17 @@
     }
 
   }
+}
 
 
+@media (max-width: 600px) {
+  .component {
+    flex-direction: column;
+    .stayImage {
+      img {
+        height: 40vh;
+        width: 100vw;
+      }
+    }
+  }
 }
