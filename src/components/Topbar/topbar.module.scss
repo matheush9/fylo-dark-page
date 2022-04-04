@@ -16,13 +16,31 @@
     display: flex;
     font-family: "Raleway", sans-serif;
     cursor: pointer;
-    
+
     :hover {
       font-weight: bold;
     }
     p {
       margin: 2vw;
       font-size: 0.8rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .component {
+    padding: 4vh;
+
+    .logo {
+      img {
+        width: 25vw;
+      }
+    }
+
+    .navbar {
+      p {
+        font-size: 0.7rem;
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
 .component {
   display: flex;
   padding: 0 5vw;
-  
+
   .stayImage {
     img {
       width: 45vw;
@@ -12,9 +12,11 @@
   .stayText {
     padding: 0 5vw;
     margin-top: 10vh;
+
     h2 {
       font-size: 2rem;
     }
+
     p {
       font-size: 0.9rem;
       margin: 2vh 0;
@@ -22,15 +24,17 @@
     .seeHow {
       display: flex;
       cursor: pointer;
-    
+
       :hover {
         color: white;
         transition: 0.4s;
+
         .wrapper {
           border-bottom-color: white;
         }
       }
-      h4 {  
+
+      h4 {
         color: $cyan;
         font-weight: 500;
       }
@@ -41,15 +45,14 @@
       }
       .arrow {
         display: inline;
+
         img {
           width: 2vw;
         }
       }
     }
-
   }
 }
-
 
 @media (max-width: 600px) {
   .component {
@@ -61,6 +64,31 @@
       img {
         height: 40vh;
         width: 90vw;
+      }
+    }
+
+    .stayText {
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+
+      .seeHow {
+        font-size: 0.8rem;
+
+        .arrow {
+          img {
+            width: 5vw;
+            height: 3vh;
+          }
+        }
+
+        .wrapper {
+          width: 30vw;
+        }
       }
     }
   }

@@ -54,10 +54,12 @@
 @media (max-width: 600px) {
   .component {
     padding: 0;
+
     .wrapper {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
       .comment {
         width: 85vw;
         padding: 3vh;
