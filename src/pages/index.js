@@ -20,8 +20,8 @@ export default function Home() {
       <Items />
       <StayProductive />
       <Testemonials />
-      {/* 
       <EarlyAcess />
+      {/* 
       <Footer /> */}
     </div>
   );
