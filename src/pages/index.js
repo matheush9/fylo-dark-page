@@ -21,8 +21,7 @@ export default function Home() {
       <StayProductive />
       <Testemonials />
       <EarlyAcess />
-      {/* 
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

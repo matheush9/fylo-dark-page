@@ -11,7 +11,7 @@ export default function EarlyAcess() {
           be happy to help you
         </p>
         <div className={styles.form}>
-          <input placeholder="email@example.com" type="text" name="" id="" />
+          <input placeholder="email@example.com" type="email" name="" id="" />
           <button>Get Started For Free</button>
         </div>
       </div>

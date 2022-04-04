@@ -5,12 +5,13 @@
   justify-content: center;
   .container {
     background-color: $dark-blue1;
+    position: relative;
     text-align: center;
     width: 60vw;
     padding: 3vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
-
+    margin-bottom: -15vh;
     p {
       margin-top: 2vh;
     }

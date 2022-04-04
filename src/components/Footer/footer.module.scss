@@ -1,1 +1,46 @@
 @import "/src/styles/cores.scss";
+
+.component {
+  background-color: $dark-blue3;
+  display: flex;
+  justify-content: space-around;
+  padding: 4vw 4vw 0 4vw;
+  height: 60vh;
+  align-items: center;
+
+  * {
+    margin-right: 1vw;
+    margin-top: 1vh;
+  }
+
+  .firstC {
+    .logo {
+      .logoIcon {
+        img {
+          width: 15vw;
+          margin-bottom: 2vh;
+        }
+      }
+    }
+
+    .location {
+      display: flex;
+      width: 35vw;
+    }
+  }
+
+  .contato {
+    margin-top: 12vh;
+    div {
+      display: flex;
+    }
+  }
+
+  .aboutus {
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    p {
+      margin: 2vw;
+    }
+  }
+}
