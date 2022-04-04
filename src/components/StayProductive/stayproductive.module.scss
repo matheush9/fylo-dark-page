@@ -53,11 +53,14 @@
 
 @media (max-width: 600px) {
   .component {
+    padding: 0;
     flex-direction: column;
+    align-items: center;
+
     .stayImage {
       img {
         height: 40vh;
-        width: 100vw;
+        width: 90vw;
       }
     }
   }

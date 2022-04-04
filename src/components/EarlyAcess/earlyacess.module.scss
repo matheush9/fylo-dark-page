@@ -36,3 +36,26 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .component {
+    .container {
+      width: 90vw;
+      padding: 4vh;
+
+
+    .form {
+      flex-direction: column;
+
+      input, button {
+        width: unset;
+        padding: 2vh;
+        margin: 2vh 0;
+        font-size: 0.9rem;
+      }
+    }
+    }
+
+  }
+
+}

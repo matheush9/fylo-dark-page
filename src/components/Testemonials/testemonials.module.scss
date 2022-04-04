@@ -53,14 +53,16 @@
 
 @media (max-width: 600px) {
   .component {
+    padding: 0;
     .wrapper {
       flex-direction: column;
       justify-content: center;
+      align-items: center;
       .comment {
         width: 85vw;
-        padding: 2vh;
+        padding: 3vh;
         line-height: 1.3rem;
-        margin-top: 4vh;
+        margin: 2vh 0;
       }
     }
   }
