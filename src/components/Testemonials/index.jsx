@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Testemonials() {
   return (
-    <div className={styles.component}>
+    <div id="testemonials" className={styles.component}>
       <div className={styles.quotes}>
         <img src="/images/bg-quotes.png" alt="" />
       </div>

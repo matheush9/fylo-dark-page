@@ -2,7 +2,7 @@ import styles from "./earlyacess.module.scss";
 
 export default function EarlyAcess() {
   return (
-    <div className={styles.component}>
+    <div id="earlyacess" className={styles.component}>
       <div className={styles.container}>
         <h2>Get early acess today</h2>
         <p>

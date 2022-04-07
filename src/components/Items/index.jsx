@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Items() {
   return (
-    <div className={styles.component}>
+    <div id="features" className={styles.component}>
       <div className={styles.items}>
         <div className={styles.item}>
           <div>

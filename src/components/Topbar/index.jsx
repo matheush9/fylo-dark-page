@@ -1,5 +1,6 @@
 import styles from "./topbar.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Topbar() {
   return (
@@ -8,9 +9,21 @@ export default function Topbar() {
         <img src="/images/logo.svg" alt="" />
       </div>
       <div className={styles.navbar}>
-        <p>Features</p>
-        <p>Team</p>
-        <p>Sign In</p>
+        <p>
+          <Link href="#features">
+          <a>Features</a>
+          </Link>
+        </p>
+        <p>
+        <Link href="#testemonials">
+          <a>Team</a>
+          </Link>
+        </p>
+        <p>
+        <Link href="#earlyacess">
+          <a>Sign In</a>
+          </Link>
+        </p>
       </div>
     </div>
   );
