@@ -1,7 +1,7 @@
 @import "/src/styles/cores.scss";
 
 .component {
-  margin: 20vh 2vw;
+  margin: 10vh 2vw;
   padding: 5vw;
 
   .quote {
@@ -19,6 +19,7 @@
       padding: 2vw;
       margin: 0 2vh;
       border-radius: 8px;
+      line-height: 1.2rem;
 
       p {
         font-size: 0.8rem;
@@ -26,7 +27,7 @@
 
       .founder {
         margin-left: 1vw;
-        margin-top: 3vh;
+        margin-top: 2vh;
         :first-child {
           font-weight: bold;
         }
